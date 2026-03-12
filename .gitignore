@@ -1,0 +1,18 @@
+# Virtual Environment
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Vector Database (generated)
+vector_db/index.faiss
+vector_db/library.pkl
+
+# Data / Temp files
+*.csv
+*.xlsx
+*.docx
+*.pdf
+!data/cbse_library.csv
